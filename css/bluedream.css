@@ -1,0 +1,191 @@
+.bdream-container {
+  margin: 0;
+  padding: 0;
+  font-family: "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  font-size: 15px;
+  color: #666666;
+  position: absolute;
+  z-index: 9999998;
+}
+.bdream-container a {
+  color: #666666;
+  transition: all 0.5s ease 0s;
+  text-decoration: none;
+  outline: none;
+  blr:expression(this.onFocus=this.blur());
+}
+.bdream-container a:hover {
+  color: #FF6100;
+  text-shadow: 0 0 5px #FF6100;
+  box-shadow: 0 0 15px #FFFFFF;
+  border-radius: 10px;
+}
+.bdream-bottom a:hover {
+  color: #FF6100;
+  text-shadow: 0 0 5px #FF6100;
+  box-shadow: 0 0 10px #91d6ff;
+}
+.bdream-body {
+  width: 310px;
+  height: 230px;
+  background-image: url("./images/body.png");
+  background-repeat: no-repeat;
+}
+.bdream-operate {
+  width: 10%;
+  height: 40%;
+  margin-left: 90%;
+  background-image: url("./images/close.png");
+  background-repeat: no-repeat;
+  margin-left: 45%;
+}
+.bdream-top {
+  width: 100%;
+  height: 30%;
+}
+.bdream-center {
+  width: 100%;
+  height: 40%;
+}
+.bdream-bottom {
+  width: 100%;
+  height: 30%;
+}
+.bdream-cloud-body {
+  width: 70%;
+  height: 100%;
+  margin: 0 auto;
+}
+.bdream-cloud {
+  width: 16%;
+  height: 35%;
+  margin-top: 22%;
+  background-image: url("./images/cloud.png");
+  background-repeat: no-repeat;
+  text-align: center;
+  display: inline-block;
+  font-weight: bold;
+}
+.bdream-cloud-active {
+  color: #FF6100 !important;
+  text-shadow: 0 0 5px #FF6100;
+  box-shadow: 0 0 15px #FFFFFF;
+  border-radius: 10px;
+}
+.bdream-cloud-body ul {
+	text-align: center;
+	word-spacing: 3px;
+	padding: 0;
+	margin: 0;
+}
+.bdream-cloud-body ul li {
+  display:inline;
+}
+.bdream-center {
+  text-align: center;
+}
+.bdream-message {
+  margin: auto;
+  height: 80%;
+  width: 70%;
+  font-size: 18px;
+}
+.bdream-message span{
+  display: inline-block;
+  margin-top: 15px;
+}
+.bdream-fish-left {
+  width: 30%;
+  height: 100%;
+  background-image: url("./images/fish_left.png");
+  background-repeat: no-repeat;
+  margin-top: -10%;
+  margin-left: 12%;
+}
+.bdream-fish-left a {
+	display: inline-block;
+	margin-top: 43%;
+	margin-left: 25%;
+}
+.bdream-fish-right {
+  width: 30%;
+  height: 100%;
+  background-image: url("./images/fish_right.png");
+  background-repeat: no-repeat;
+  margin-top: -22%;
+  margin-left: 63%;
+}
+.bdream-fish-right a {
+  display: inline-block;
+	margin-top: 43%;
+	margin-left: 13%;
+}
+.bdream-pull-left {
+  float: left;
+}
+.bdream-pull-right {
+  float: right;
+}
+.bdream-curosr {
+  cursor: pointer;
+}
+
+.bdream-overlay {
+  position: absolute;
+  z-index: 999999;
+  background-color: #000;
+  opacity: 0;
+  background: -moz-radial-gradient(center,ellipse cover,rgba(0,0,0,0.4) 0,rgba(0,0,0,0.9) 100%);
+  background: -webkit-gradient(radial,center center,0px,center center,100%,color-stop(0%,rgba(0,0,0,0.4)),color-stop(100%,rgba(0,0,0,0.9)));
+  background: -webkit-radial-gradient(center,ellipse cover,rgba(0,0,0,0.4) 0,rgba(0,0,0,0.9) 100%);
+  background: -o-radial-gradient(center,ellipse cover,rgba(0,0,0,0.4) 0,rgba(0,0,0,0.9) 100%);
+  background: -ms-radial-gradient(center,ellipse cover,rgba(0,0,0,0.4) 0,rgba(0,0,0,0.9) 100%);
+  background: radial-gradient(center,ellipse cover,rgba(0,0,0,0.4) 0,rgba(0,0,0,0.9) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#66000000',endColorstr='#e6000000',GradientType=1);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+}
+.bdream-helperLayer {
+  background-color: rgba(255, 255, 255, 0.9);
+  position: absolute;
+  z-index: 9999998;
+  border: 1px solid #777;
+  border: 1px solid rgba(0,0,0,.5);
+  border-radius: 4px;
+  box-shadow: 0 2px 15px rgba(0,0,0,.4);
+}
+.bdream-pointer {
+	position: absolute;
+  z-index: 9999998;
+	width: 100px;
+  height: 100px;
+}
+.bdream-pointer-left {
+  display: inline-block;
+  background-image: url("./images/pointer_left.png");
+  background-repeat: no-repeat;
+}
+.bdream-pointer-right {
+  display: inline-block;
+  background-image: url("./images/pointer_right.png");
+  background-repeat: no-repeat;
+}
+.bdream-pointer-up {
+  display: inline-block;
+  background-image: url("./images/pointer_up.png");
+  background-repeat: no-repeat;
+}
+.bdream-pointer-down {
+  display: inline-block;
+  background-image: url("./images/pointer_down.png");
+  background-repeat: no-repeat;
+}
+.bdream-display {
+  display: none !important;
+}
+.bdream-element {
+  position: relative;
+  z-index: 9999999 !important;
+}
+
+
